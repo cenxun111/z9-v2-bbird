@@ -1,0 +1,7 @@
+.con{
+    margin-left: 210px;
+    /* transition: width .3s ease-in */
+  }
+.con.inv{
+   margin-left:70px
+  }

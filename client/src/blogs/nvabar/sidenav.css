@@ -1,0 +1,16 @@
+.side-menu{
+    position:fixed;
+    background:#6495ED;
+    width: 200px;
+    height:100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    /* transition: width .2s ease-in */
+}
+
+.side-menu.inactive{
+    width: 60px;
+}
+.side-menu.inactive .navgate{
+    visibility: hidden;
+}
